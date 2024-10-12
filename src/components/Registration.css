@@ -1,0 +1,84 @@
+.addUser {
+    background-color: white;
+    width: 25%;
+    margin: 50px auto;
+
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+
+  }
+  .addUserForm .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .addUserForm .inputGroup label {
+    margin-top: 10px;
+  }
+  
+  .addUserForm .inputGroup input {
+    margin-top: 5px;
+    padding: 10px;
+  }
+  
+  .inputGroup button {
+    margin-top: 10px;
+  }
+  .login {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .login .btn.btn-primary {
+    width: 50%;
+  }
+  
+  .addUser h3 {
+    text-align: center;
+    font-weight: bold;
+    color: darkcyan;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  }
+  @media (max-width: 768px) {
+    .addUser {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    input {
+        padding: 8px;
+    }
+
+    button {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .addUser {
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    input {
+        padding: 6px;
+    }
+
+    button {
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 8px 15px;
+    }
+}
